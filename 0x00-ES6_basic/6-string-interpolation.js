@@ -8,7 +8,7 @@ export default function getSanFranciscoDescription() {
 
   let str = `As of ${year}, it was the seventh-highest income county in the United States`;
   str += `, with a per capita personal income of ${budget.income}. As of 2015, San Francisco`;
-  str += `proper had a GDP of ${budget.gdp}, and a GDP per capita of ${budget.capita}.`;
+  str += ` proper had a GDP of ${budget.gdp}, and a GDP per capita of ${budget.capita}.`;
 
   return str;
 }
