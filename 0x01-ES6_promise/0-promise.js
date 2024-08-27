@@ -1,3 +1,4 @@
 export function getResponseFromAPI() {
-    return new Promise(() => {});
+  const myPromise = Promise.resolve(true);
+  return myPromise;
 }
